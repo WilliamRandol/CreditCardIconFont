@@ -380,6 +380,15 @@ Full-Width Styles
 	display: inline-block;
 	border:1px solid #ccc;
 	background-color: #eee;
+	overflow: hidden;
+	text-align: center;
+	width:49%;
+}
+
+.demo div pre, .demo div pre code {
+	font-size:10px;
+	padding: 5px 0;
+	overflow: hidden;
 }
 	
 
