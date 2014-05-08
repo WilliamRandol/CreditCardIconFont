@@ -1,7 +1,7 @@
 Credit Card Icon Font
 =====================
 
-This project includes stacked **full color** logos for the top 6 (six) credit card companies. It even included proper gradients if you are using a supported browser.
+This project includes stacked **full color** logos for the top 6 (six) credit card companies. It even included proper gradients if you are using a supported browser. Perfect for those shunning raster graphics!
 
 [View the demo.][demo]
 
