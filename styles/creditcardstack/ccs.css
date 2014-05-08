@@ -1,0 +1,131 @@
+@font-face {
+	font-family: 'creditcardstack';
+	src:url('fonts/creditcardstack.eot?424st');
+	src:url('fonts/creditcardstack.eot?#iefix424st') format('embedded-opentype'),
+		url('fonts/creditcardstack.woff?424st') format('woff'),
+		url('fonts/creditcardstack.ttf?424st') format('truetype'),
+		url('fonts/creditcardstack.svg?424st#creditcardstack') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ccs {
+	font-family: 'creditcardstack';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	width: 1em;
+	height: .7em;
+	line-height: .7em;
+	position:relative;
+	display: inline-block;
+}
+
+.ccs:before, .ccs:after, .ccs span:before, .ccs span:after{
+	position:absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	padding: 0 .1em;
+}
+
+.ccs-visa:before {
+	content: "\e600";
+	color: #faa519;
+}
+.ccs-visa:after {
+	content: "\e601";
+	color: #00579f;
+}
+
+.ccs-discover span:before {
+	content: "\e602";
+	color: #fff;
+}
+
+.ccs-discover:before {
+	content: "\e603";
+	color: transparent;
+	text-shadow: .005em .005em .015em #e45b1e, 0 0 0 #973910;
+}
+.ccs-discover:after {
+	content: "\e604";
+	color: #f48024;
+	background: -webkit-linear-gradient(300deg, transparent 45%, #f48024 50%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.ccs-discover span:after {
+	content: "\e605";
+	color: #000;
+}
+.ccs-mastercard:before {
+	content: "\e606";
+	color:#fff;
+}
+.ccs-mastercard:after {
+	content: "\e607";
+	color: #ed1b2d;
+}
+.ccs-mastercard span:before {
+	content: "\e608";
+	color: #fbb130;
+}
+.ccs-mastercard span:after {
+	content: "\e609";
+	color: #003473;
+}
+.ccs-jcb:before {
+	content: "\e60a";
+	color: #fff;
+}
+.ccs-jcb:after {
+	content: "\e60b";
+	color: #e30138;
+	background: -webkit-linear-gradient(0deg, #6e2b2f 40%, #e30138 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.ccs-jcb span:before {
+	content: "\e60c";
+	color: #55b330;
+	background: -webkit-linear-gradient(0deg, #007b40 60%, #55b330 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.ccs-jcb span:after {
+	content: "\e60d";
+	color: #006dba;
+	background: -webkit-linear-gradient(0deg, #1d2970 20%, #006dba 40%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.ccs-dinersclub:before {
+	content: "\e60e";
+	color: #fff;
+}
+.ccs-dinersclub:after {
+	content: "\e60f";
+	color: #0069aa;
+}
+.ccs-dinersclub span:before {
+	content: "\e610";
+	color: #000;
+}
+.ccs-amex:before {
+	content: "\e611";
+	color: #fff;
+}
+.ccs-amex:after {
+	content: "\e612";
+	color: #0068a5;
+	background: -webkit-radial-gradient(35% 20%, #64bbf1, #0068a5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
