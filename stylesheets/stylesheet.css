@@ -367,6 +367,22 @@ Full-Width Styles
 }
 
 
+.demo .ccs{
+	font-size: 150px;
+}
+.demo p{
+	text-align: center;
+	background-color: #fff;
+	margin: 0;
+	border-top:1px solid #ccc;
+}
+.demo div {
+	display: inline-block;
+	border:1px solid #ccc;
+	background-color: #eee;
+}
+	
+
 
 /*******************************************************************************
 Small Device Styles
