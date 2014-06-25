@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'creditcardstack';
-	src:url('fonts/creditcardstack.eot?424st');
-	src:url('fonts/creditcardstack.eot?#iefix424st') format('embedded-opentype'),
-		url('fonts/creditcardstack.woff?424st') format('woff'),
-		url('fonts/creditcardstack.ttf?424st') format('truetype'),
-		url('fonts/creditcardstack.svg?424st#creditcardstack') format('svg');
+	src:url('../fonts/creditcardstack.eot?424st');
+	src:url('../fonts/creditcardstack.eot?#iefix424st') format('embedded-opentype'),
+		url('../fonts/creditcardstack.woff?424st') format('woff'),
+		url('../fonts/creditcardstack.ttf?424st') format('truetype'),
+		url('../fonts/creditcardstack.svg?424st#creditcardstack') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
